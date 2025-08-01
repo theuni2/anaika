@@ -44,10 +44,10 @@ export default function Gallery() {
           <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-green-900">
            People For Action Event Gallery
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-green-700">
+          {/* <p className="lg:w-2/3 mx-auto leading-relaxed text-green-700">
             Relive the moments from our sustainability workshops and events.  
             Every image tells a story of eco-conscious action and community spirit.
-          </p>
+          </p> */}
           <div className="w-16 h-1 bg-green-500 rounded mx-auto mt-4"></div>
         </div>
 
@@ -75,10 +75,10 @@ export default function Gallery() {
           <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-green-900">
             Pehchaan Event Gallery
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-green-700">
+          {/* <p className="lg:w-2/3 mx-auto leading-relaxed text-green-700">
             Relive the moments from our sustainability workshops and events.  
             Every image tells a story of eco-conscious action and community spirit.
-          </p>
+          </p> */}
           <div className="w-16 h-1 bg-green-500 rounded mx-auto mt-4"></div>
         </div>
 
@@ -106,10 +106,10 @@ export default function Gallery() {
           <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-green-900">
             Paras Foundation Event Gallery
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-green-700">
+          {/* <p className="lg:w-2/3 mx-auto leading-relaxed text-green-700">
             Relive the moments from our sustainability workshops and events.  
             Every image tells a story of eco-conscious action and community spirit.
-          </p>
+          </p> */}
           <div className="w-16 h-1 bg-green-500 rounded mx-auto mt-4"></div>
         </div>
 

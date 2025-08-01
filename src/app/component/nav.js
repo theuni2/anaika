@@ -66,7 +66,7 @@ export default function Nav() {
         <nav className="hidden md:flex gap-6 text-base">
           <a href="/" className="hover:text-green-600 transition text-green-400">Home</a>
           <a onClick={(e) => scrollToSection(e, "workshop")} className="cursor-pointer hover:text-green-600 text-green-400 transition">Workshop</a>
-          <a onClick={(e) => scrollToSection(e, "showreels")} className="cursor-pointer hover:text-green-600 text-green-400 transition">Show Reels</a>
+          <a onClick={(e) => scrollToSection(e, "showreel")} className="cursor-pointer hover:text-green-600 text-green-400 transition">Show Reels</a>
           <a href="/gallery" className="hover:text-green-600 text-green-400 transition">Gallery</a>
           <a onClick={(e) => scrollToSection(e, "green-governance")} className="cursor-pointer hover:text-green-600 text-green-400 transition">Green Governance</a>
         </nav>
@@ -115,7 +115,7 @@ export default function Nav() {
           <nav className="flex flex-col gap-4 p-4 text-base">
             <a href="/" onClick={() => setIsOpen(false)} className="hover:text-green-600 text-green-400" >Home</a>
             <a onClick={(e) => scrollToSection(e, "workshop")} className="hover:text-green-600 text-green-400">Workshop</a>
-            <a onClick={(e) => scrollToSection(e, "showreels")} className="hover:text-green-600 text-green-400">Show Reels</a>
+            <a onClick={(e) => scrollToSection(e, "showreel")} className="hover:text-green-600 text-green-400">Show Reels</a>
             <a href="/gallery" onClick={() => setIsOpen(false)} className="hover:text-green-600 text-green-400">Gallery</a>
             <a onClick={(e) => scrollToSection(e, "green-governance")} className="hover:text-green-600 text-green-400">Green Governance</a>
             {/* <a href="#contact" className="bg-blue-500 text-white px-4 py-2 rounded-full text-center">Contact Us</a> */}

@@ -71,7 +71,7 @@ export default function Workshop() {
       </section>
 
       {/* Showreel Section */}
-      <section id="showreel" className="bg-green-50 py-20">
+      <section id="showreel" className="bg-green-50 py-20" >
         <div className="container mx-auto px-5 text-center">
           <h2 className="sm:text-3xl text-2xl font-medium title-font text-green-900 mb-6">
             Showreel
