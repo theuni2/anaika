@@ -10,7 +10,7 @@ export default function Workshop() {
           {/* Main Title */}
           <div className="text-center mb-20">
             <h1 className="sm:text-3xl text-2xl font-medium title-font text-green-900 mb-4">
-              Workshop on Our Sustainability 
+              Workshop on Sustainability 
             </h1>
             <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-green-700">
               Our sustainability workshops to learn, create, and innovate with eco-friendly practices. 
