@@ -35,7 +35,6 @@
 
 "use client";
 
-
 import React, { useState } from "react";
 
 export default function Nav() {
@@ -55,29 +54,21 @@ export default function Nav() {
       <div className="container mx-auto flex flex-wrap p-4 items-center justify-between">
         
         {/* Logo */}
-        <a href="/" className="flex items-center text-gray-900">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            className="w-10 h-10 text-white p-2 bg-green-500 rounded-full"
-            viewBox="0 0 24 24"
-          >
-            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-          </svg>
-          <span className="ml-3 text-xl font-semibold text-green-500">Anaika</span>
+        <a href="/" className="flex items-center">
+          <img
+            src="/images/logo.png"
+            alt="logo"
+            className="h-10 w-auto sm:h-12 md:h-14 lg:h-20 object-contain"
+          />
         </a>
 
         {/* Desktop Menu */}
         <nav className="hidden md:flex gap-6 text-base">
           <a href="/" className="hover:text-green-600 transition text-green-400">Home</a>
-          <a onClick={(e) => scrollToSection(e, "workshop")} className="cursor-pointer hover:text-green-600  text-green-400 transition">Workshop</a>
-          <a onClick={(e) => scrollToSection(e, "showreels")} className="cursor-pointer hover:text-green-600  text-green-400 transition">Show Reels</a>
-          <a href="/gallery" className="hover:text-green-600  text-green-400 transition">Gallery</a>
-          <a onClick={(e) => scrollToSection(e, "green-governance")} className="cursor-pointer hover:text-green-600  text-green-400 transition">Green Governance</a>
+          <a onClick={(e) => scrollToSection(e, "workshop")} className="cursor-pointer hover:text-green-600 text-green-400 transition">Workshop</a>
+          <a onClick={(e) => scrollToSection(e, "showreels")} className="cursor-pointer hover:text-green-600 text-green-400 transition">Show Reels</a>
+          <a href="/gallery" className="hover:text-green-600 text-green-400 transition">Gallery</a>
+          <a onClick={(e) => scrollToSection(e, "green-governance")} className="cursor-pointer hover:text-green-600 text-green-400 transition">Green Governance</a>
         </nav>
 
         {/* Contact Button */}
@@ -134,3 +125,4 @@ export default function Nav() {
     </header>
   );
 }
+

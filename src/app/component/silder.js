@@ -8,9 +8,9 @@ import { Autoplay } from 'swiper/modules';
 
 export default function Slider() {
   const slides = [
-    { src: '/images/slider1.png', text: 'Welcome to Project Echo' },
-    { src: '/images/slider2.png', text: 'Echoing the Past with New Energy' },
-    { src: '/images/slider3.png', text: 'Conversations That Bring History to Life' }
+    { src: '/images/slider1.png', text: '' },
+    { src: '/images/slider2.png', text: '' },
+    { src: '/images/slider3.png', text: '' }
     
   ];
 
