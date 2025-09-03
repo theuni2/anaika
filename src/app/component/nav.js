@@ -70,15 +70,15 @@ export default function Nav() {
           <a onClick={(e) => scrollToSection(e, "workshop")} className="cursor-pointer hover:text-green-600 text-green-400 transition">Workshop</a>
           <a onClick={(e) => scrollToSection(e, "showreel")} className="cursor-pointer hover:text-green-600 text-green-400 transition">Show Reels</a>
           <a href="/gallery" className="hover:text-green-600 text-green-400 transition">Gallery</a>
-          <a href='/flipbook' className="cursor-pointer hover:text-green-600 text-green-400 transition">Green Governance</a>
+          {/* <a href='/flipbook' className="cursor-pointer hover:text-green-600 text-green-400 transition">Green Governance</a> */}
         </nav>
 
         {/* Contact Button */}
         <a 
-          href="#contact" 
+          href="/flipbook" 
           className="hidden md:inline-flex items-center bg-green-500 text-white px-4 py-2 rounded-full hover:bg-blue-600 transition"
         >
-          Contact Us
+          Green Governance Journal
         </a>
 
         {/* Mobile Menu Button */}
@@ -119,7 +119,7 @@ export default function Nav() {
             <a onClick={(e) => scrollToSection(e, "workshop")} className="hover:text-green-600 text-green-400">Workshop</a>
             <a onClick={(e) => scrollToSection(e, "showreel")} className="hover:text-green-600 text-green-400">Show Reels</a>
             <a href="/gallery" onClick={() => setIsOpen(false)} className="hover:text-green-600 text-green-400">Gallery</a>
-            <a onClick={(e) => scrollToSection(e, "green-governance")} className="hover:text-green-600 text-green-400">Green Governance</a>
+            {/* <a onClick={(e) => scrollToSection(e, "green-governance")} className="hover:text-green-600 text-green-400">Green Governance</a> */}
             {/* <a href="#contact" className="bg-blue-500 text-white px-4 py-2 rounded-full text-center">Contact Us</a> */}
           </nav>
         </div>
