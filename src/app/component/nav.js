@@ -33,6 +33,8 @@
 //   )
 // }
 
+
+
 "use client";
 
 import React, { useState } from "react";
@@ -50,7 +52,7 @@ export default function Nav() {
   };
 
   return (
-    <header className="fixed w-full top-0 left-0 z-50 bg-white/80 backdrop-blur-md shadow-sm">
+    <header className=" w-full top-0 left-0 z-50 bg-white/80 backdrop-blur-md shadow-sm">
       <div className="container mx-auto flex flex-wrap p-4 items-center justify-between">
         
         {/* Logo */}
@@ -68,7 +70,7 @@ export default function Nav() {
           <a onClick={(e) => scrollToSection(e, "workshop")} className="cursor-pointer hover:text-green-600 text-green-400 transition">Workshop</a>
           <a onClick={(e) => scrollToSection(e, "showreel")} className="cursor-pointer hover:text-green-600 text-green-400 transition">Show Reels</a>
           <a href="/gallery" className="hover:text-green-600 text-green-400 transition">Gallery</a>
-          <a onClick={(e) => scrollToSection(e, "green-governance")} className="cursor-pointer hover:text-green-600 text-green-400 transition">Green Governance</a>
+          <a href='/flipbook' className="cursor-pointer hover:text-green-600 text-green-400 transition">Green Governance</a>
         </nav>
 
         {/* Contact Button */}

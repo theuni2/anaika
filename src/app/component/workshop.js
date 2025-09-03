@@ -70,7 +70,7 @@ export default function Workshop() {
         </div>
       </section>
 
-      {/* Showreel Section */}
+      {/* Showreel Section
       <section id="showreel" className="bg-green-50 py-20" >
         <div className="container mx-auto px-5 text-center">
           <h2 className="sm:text-3xl text-2xl font-medium title-font text-green-900 mb-6">
@@ -82,7 +82,7 @@ export default function Workshop() {
 
           {/* YouTube Embed */}
 
-        <div className="relative w-full max-w-3xl mx-auto aspect-video">
+        {/* <div className="relative w-full max-w-3xl mx-auto aspect-video">
   <iframe
     className="w-full h-full rounded-lg shadow-lg"
     src="https://www.youtube.com/embed/75OfwBuiUok?autoplay=0&modestbranding=1&rel=0"
@@ -94,7 +94,34 @@ export default function Workshop() {
 </div>
 
         </div>
-      </section>
+      </section> */}
+
+
+      {/* Showreel Section */}
+<section id="showreel" className="bg-green-50 py-20">
+  <div className="container mx-auto px-5 text-center">
+    <h2 className="sm:text-3xl text-2xl font-medium title-font text-green-900 mb-6">
+      Showreel
+    </h2>
+    <p className="text-green-700 mb-10 max-w-2xl mx-auto">
+      Take a quick look at our recent workshops, green governance activities, and sustainability drives in action.
+    </p>
+
+    {/* Local Video from Public Folder */}
+    <div className="relative w-full max-w-3xl mx-auto aspect-video">
+      <video
+        className="w-full h-full rounded-lg shadow-lg"
+        controls
+        autoPlay={false}
+        muted
+      >
+        <source src="/showreel.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+</section>
+
 
     </div>
   )
